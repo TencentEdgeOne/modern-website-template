@@ -56,26 +56,26 @@ A modern website template built with Next.js and Tailwind CSS.
 ## Project Structure
 
 ```
-├── app/ # App Router pages and layouts
-│ ├── api/ # API routes
-│ ├── [pages]/ # Individual pages (e.g., about, projects)
-│ └── layout.tsx # Root layout
-├── components/ # Reusable components
-│ ├── layout/ # Layout specific components (Header, Footer)
-│ ├── projects/ # Project related components (ProjectCard)
-│ ├── ui/ # shadcn/ui components
-│ ├── scroll-button.tsx # Scroll button component
-│ └── testimonial-slider.tsx # Testimonial slider component
-├── lib/ # Utility functions and data
-│ ├── data.ts # Data definitions (projects, partners, testimonials etc.)
-│ └── utils.ts # Utility functions (cn helper)
-├── public/ # Static assets
-├── .eslintrc.js # ESLint configuration
-├── .prettierrc # Prettier configuration
-├── next.config.js # Next.js configuration
-├── package.json # Project dependencies and scripts
-├── tailwind.config.js # Tailwind configuration
-└── tsconfig.json # TypeScript configuration
+├── app/             ## App Router pages and layouts
+│   ├── api/         ## API routes
+│   ├── [pages]/     ## Individual pages (e.g., about, projects)
+│   └── layout.tsx   ## Root layout
+├── components/      ## Reusable components
+│   ├── layout/      ## Layout specific components (Header, Footer)
+│   ├── projects/    ## Project related components (ProjectCard)
+│   ├── ui/          ## shadcn/ui components
+│   ├── scroll-button.tsx ## Scroll button component
+│   └── testimonial-slider.tsx ## Testimonial slider component
+├── lib/             ## Utility functions and data
+│   ├── data.ts      ## Data definitions (projects, partners, testimonials etc.)
+│   └── utils.ts     ## Utility functions (cn helper)
+├── public/          ## Static assets
+├── .eslintrc.js    ## ESLint configuration
+├── .prettierrc     ## Prettier configuration
+├── next.config.js  ## Next.js configuration
+├── package.json     ## Project dependencies and scripts
+├── tailwind.config.js ## Tailwind configuration
+└── tsconfig.json    ## TypeScript configuration
 ```
 
 ## Configuration File Explanation

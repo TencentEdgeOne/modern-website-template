@@ -59,26 +59,26 @@ npm run build
 ## 项目结构
 
 ```
-├── app/             # App Router 路由目录 (页面、布局、API 路由等)
-│   ├── api/         # API 路由
-│   ├── [页面目录]/  # 各页面目录 (如 about, projects)
-│   └── layout.tsx   # 根布局文件
-├── components/      # 可复用组件
-│   ├── layout/      # 布局相关组件 (Header, Footer)
-│   ├── projects/    # 项目案例相关组件 (ProjectCard)
-│   ├── ui/          # shadcn/ui 组件
-│   ├── scroll-button.tsx # 滚动按钮组件
-│   └── testimonial-slider.tsx # 客户评价轮播组件
-├── lib/             # 工具函数和数据文件
-│   ├── data.ts      # 数据定义 (项目案例、合作伙伴、客户评价等)
-│   └── utils.ts     # 工具函数 (如 cn 类名合并函数)
-├── public/          # 静态资源目录
-├── .eslintrc.js    # ESLint 配置文件
-├── .prettierrc     # Prettier 配置文件
-├── next.config.js  # Next.js 配置文件
-├── package.json     # 项目依赖及脚本配置
-├── tailwind.config.js # Tailwind 配置
-└── tsconfig.json    # TypeScript 配置文件
+├── app/             ## App Router 路由目录 (页面、布局、API 路由等)
+│   ├── api/         ## API 路由
+│   ├── [页面目录]/  ## 各页面目录 (如 about, projects)
+│   └── layout.tsx   ## 根布局文件
+├── components/      ## 可复用组件
+│   ├── layout/      ## 布局相关组件 (Header, Footer)
+│   ├── projects/    ## 项目案例相关组件 (ProjectCard)
+│   ├── ui/          ## shadcn/ui 组件
+│   ├── scroll-button.tsx ## 滚动按钮组件
+│   └── testimonial-slider.tsx ## 客户评价轮播组件
+├── lib/             ## 工具函数和数据文件
+│   ├── data.ts      ## 数据定义 (项目案例、合作伙伴、客户评价等)
+│   └── utils.ts     ## 工具函数 (如 cn 类名合并函数)
+├── public/          ## 静态资源目录
+├── .eslintrc.js    ## ESLint 配置文件
+├── .prettierrc     ## Prettier 配置文件
+├── next.config.js  ## Next.js 配置文件
+├── package.json     ## 项目依赖及脚本配置
+├── tailwind.config.js ## Tailwind 配置
+└── tsconfig.json    ## TypeScript 配置文件
 ```
 
 ## 配置文件说明
