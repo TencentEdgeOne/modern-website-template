@@ -55,6 +55,7 @@ A modern website template built with Next.js and Tailwind CSS.
 
 ## Project Structure
 
+```
 ├── app/ # App Router pages and layouts
 │ ├── api/ # API routes
 │ ├── [pages]/ # Individual pages (e.g., about, projects)
@@ -75,7 +76,7 @@ A modern website template built with Next.js and Tailwind CSS.
 ├── package.json # Project dependencies and scripts
 ├── tailwind.config.js # Tailwind configuration
 └── tsconfig.json # TypeScript configuration
-
+```
 
 ## Configuration File Explanation
 
