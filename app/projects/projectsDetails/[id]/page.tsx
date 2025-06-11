@@ -6,7 +6,6 @@ import { projects } from '../data'
 import { ArrowLeft } from 'lucide-react'
 import './styles.css'
 
-// 生成静态路由参数
 export function generateStaticParams() {
   return projects.map((project) => ({
     id: project.id,
@@ -23,7 +22,6 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
   return (
     <div className="container mx-auto px-4 py-8 mt-20">
       <div className="max-w-4xl mx-auto">
-        {/* 返回按钮 */}
         <Link 
           href="/projects" 
           className="inline-flex items-center gap-2 text-sm font-medium text-foreground/70 hover:text-foreground transition-colors mb-24"
@@ -32,7 +30,6 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
           <span>Back to Projects List</span>
         </Link>
 
-        {/* 项目头部 */}
         <div className="mb-8">
           <div className="relative w-full aspect-[21/9] mb-6 rounded-lg overflow-hidden">
             <Image
@@ -64,7 +61,6 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
           </div>
         </div>
 
-        {/* 项目内容 */}
         <div className="prose prose-lg max-w-none text-foreground space-y-6">
           {typeof project.description === 'string' ? (
             <p>{project.description}</p>
